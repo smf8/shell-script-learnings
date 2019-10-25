@@ -36,7 +36,7 @@ then
 fi
 
 #setting password for user
-
+#the reason I'm using chpasswd instead of passwd is : https://stackoverflow.com/questions/714915/using-the-passwd-command-from-within-a-shell-script/715802#715802
 echo "${USERNAME}:${PASSWORD}" | chpasswd
 
 if [[ ${?} -ne 0 ]]
