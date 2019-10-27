@@ -1,4 +1,4 @@
-# bash-script-learnings
+# shell-script-learnings
 
 Just the things is used for practicing shell scripting
 
